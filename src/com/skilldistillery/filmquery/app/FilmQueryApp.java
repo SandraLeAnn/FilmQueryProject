@@ -66,6 +66,7 @@ public class FilmQueryApp {
 				System.out.println("Enter a keyword to search.");
 				String keyword = sc.next();
 				System.out.println(db.searchFilmByKeyword(keyword));
+				System.out.println();
 
 				break;
 			case 4:

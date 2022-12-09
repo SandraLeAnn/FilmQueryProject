@@ -137,8 +137,6 @@ public class Film {
 		this.actors = actors;
 	}
 	
-	
-
 	public String getLanguageName() {
 		return languageName;
 	}
@@ -146,6 +144,7 @@ public class Film {
 	public void setLanguageName(String languageName) {
 		this.languageName = languageName;
 	}
+
 
 	@Override
 	public String toString() {
